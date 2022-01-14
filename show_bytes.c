@@ -30,8 +30,10 @@ void show_pointer(void *x)
 
 void test_show_bytes()
 {
-    int i = 1024;
-    float f = 3.14159;
+
+
+    int i = 1;
+    float f = 1;
     void *p = &i;
     show_int(i);
     show_float(f);
